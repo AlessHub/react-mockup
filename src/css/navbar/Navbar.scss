@@ -7,7 +7,7 @@ nav{
     display: flex;
     align-items: center;
     gap: 1em;
-}span{
+}.whiteSpan{
     color: white;
     font-size: 1.5rem;
 }a{
@@ -17,4 +17,30 @@ nav{
     display: flex;
     align-items: center;
     gap: 1em;
+}
+
+@media only screen and (max-width: 380px){
+    .logoBtn{
+        gap: 0.25rem
+    }
+    .navBtnContainer{
+        gap: 0.25rem
+    }
+}
+
+@media only screen and (max-width: 340px){
+    .logoImg{
+        max-width: 25%;
+    }.whiteSpan{
+        font-size: 1rem;
+    }
+    .logoBtn{
+        gap: 0.25rem;
+        font-size: 1rem;
+    }
+    .navBtnContainer{
+        gap: 0.25rem
+    }.navBtn{
+        font-size: 1rem;
+    }
 }

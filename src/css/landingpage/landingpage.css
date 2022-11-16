@@ -1,4 +1,77 @@
-main {
+.landingContainer {
   display: flex;
   color: white;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12rem;
+}
+
+.landingImg {
+  max-width: 80%;
+}
+
+.landingText {
+  font-weight: 500;
+  font-size: 2.5rem;
+}
+
+.landingParagraph {
+  font-size: 1.2rem;
+}
+
+.landingBtn {
+  background-color: #1762a7;
+  border: 0;
+  padding: 0.75rem;
+  border-radius: 10px;
+  width: 25%;
+  color: white;
+  opacity: 80%;
+}
+
+@media only screen and (max-width: 920px) {
+  .landingContainer {
+    display: flex;
+    color: white;
+    justify-content: center;
+    margin-top: 12rem;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .landingImg {
+    max-width: 50%;
+  }
+}
+@media only screen and (max-width: 920px) {
+  .landingContainer {
+    display: flex;
+    color: white;
+    justify-content: center;
+    margin-top: 5rem;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .landingImg {
+    max-width: 30%;
+    position: absolute;
+    left: 30%;
+    bottom: 0;
+  }
+}
+@media only screen and (max-width: 590px) {
+  .landingContainer {
+    display: flex;
+    color: white;
+    height: 100vh;
+    margin: auto;
+  }
+  .landingImg {
+    display: none;
+  }
+  .landingTextContainer {
+    margin: 2rem;
+  }
+  .landingBtn {
+    width: 35%;
+  }
 }/*# sourceMappingURL=landingpage.css.map */
