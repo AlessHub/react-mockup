@@ -39,3 +39,20 @@
     color:#bc3a80;
     font-size: 3rem;
 }
+
+@media only screen and (max-width: 860px){
+    .registerContainer{
+        flex-direction: column;
+        margin-top: 5rem;
+    }
+}
+@media only screen and (max-width: 440px){
+    .registerContainer{
+        flex-direction: column;
+        margin-top: 5rem;
+    }.registerForm{
+        padding: 1rem;
+    }.formInput{
+        min-width: 260px;
+    }
+}

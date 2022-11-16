@@ -22,3 +22,9 @@ footer {
     align-items: center;
     gap: 0.5rem;
 }
+
+@media only screen and (max-width: 380px){
+    .footerSpan{
+        font-size: 0.7rem;
+    }
+}

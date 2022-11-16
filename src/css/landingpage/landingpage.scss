@@ -65,3 +65,29 @@
         width: 35%;
     }
 }
+
+.mycircles{
+    width:62vw;
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+  }
+  .mycircles:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .mycircles div{
+    box-sizing:border-box;
+    border:1px solid red;  
+    height:20vw;
+    float:left;
+    width:20vw;
+    margin-right:1vw;
+    border-radius:50%;
+    background: red;
+  }
+  .mycircles div:last-child{
+    margin-right:0px;
+  }
