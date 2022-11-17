@@ -7,10 +7,11 @@ function LandingPage() {
         <Navbar/>
         <main className='landingContainer'>
             <LandingContent/>
-            <div class="mycircles">
-              <div>
-              </div>
+            <div class="circleContainer">
+              <div class="circle"></div>
             </div>
+            <div class="circle-1"></div>
+            <div class="circle-2"></div>
         </main> 
     </>
   )
