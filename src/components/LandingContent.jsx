@@ -1,7 +1,7 @@
 import React from "react";
-import LandingPageGirl from '../img/landing-page-girl.png'
+import LandingPageGirl from '../assets/landing-page-girl.png'
 import { Link } from "react-router-dom";
-import '../css/landingpage/landingpage.css'
+import '../scss/landingpage/landingpage.scss'
 
 function MainContent() {
   return (

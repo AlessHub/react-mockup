@@ -1,7 +1,7 @@
 import React from 'react'
-import '../css/footer/footer.css'
-import Facebook from '../img/facebook.svg'
-import Twitter from '../img/twitter.svg'
+import '../scss/footer/footer.scss'
+import Facebook from '../assets/facebook.svg'
+import Twitter from '../assets/twitter.svg'
 
 function Footer() {
   return (

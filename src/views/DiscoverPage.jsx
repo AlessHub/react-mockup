@@ -1,14 +1,14 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
-import RegisterContent from '../components/RegisterContent'
+import DiscoverContent from '../components/DiscoverContent'
 
 function DiscoverPage() {
   return (
     <>
         <Navbar/>
         <main>
-            <RegisterContent/>
+            <DiscoverContent/>
         </main>
         <Footer/>
     </>

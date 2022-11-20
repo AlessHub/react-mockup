@@ -1,9 +1,9 @@
 import React from "react";
-import Micro from '../img/microphone.svg'
-import Albums from '../img/albums.svg'
-import More from '../img/more.svg'
-import Covers from '../img/covers.jpg'
-import '../css/discoverpage/discoverpage.css'
+import Micro from '../assets/microphone.svg'
+import Albums from '../assets/albums.svg'
+import More from '../assets/more.svg'
+import Covers from '../assets/covers.jpg'
+import '../scss/discoverpage/discoverpage.scss'
 
 function RegisterContent() {
   return (
